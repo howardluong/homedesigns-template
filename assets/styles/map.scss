@@ -1,0 +1,171 @@
+#map {
+    width: 100%;
+    position: relative;
+
+    img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    // Map Points
+
+    .pointer {
+        width: 1vw;
+        height: 1vw;
+        cursor: pointer;
+
+        @media screen and (max-width: 1199px) {
+            width: 2vw;
+            height: 2vw;
+        }
+        
+        &:hover + .pointerInfo {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    .pointerInfo {
+        position: relative;
+        top: -65px;
+        // left: -15%;
+        // width: 150px;
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 5px;
+        font-size: 0.85rem;
+        transition: 0.25s ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+
+        @media screen and (max-width: 1199px) {
+            
+        }
+
+
+        @media screen and (max-width: 768px) {
+            top: -60px;
+        }
+
+        @media screen and (max-width: 600px) {
+            top: -55px;
+        }
+
+        @media screen and (max-width: 480px) {
+            left: -24px;
+        }
+
+        p {
+            font-family: 'GothamLight';
+            line-height: 100%;
+            margin-bottom: 0;
+        }
+
+        span {
+            font-family: 'GothamBookItalic';
+            color: #6ba43a;
+        }
+    }
+
+    #newTecumsethPoint {
+        position: absolute;
+        top: 5%;
+        left: 29%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #tottenhamPoint {
+        position: absolute;
+        top: 20.4%;
+        left: 36.7%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #newmarketPoint {
+        position: absolute;
+        top: 14.7%;
+        left: 77.5%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #caledonPoint {
+        position: absolute;
+        top: 52.4%;
+        left: 28.3%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #richmondhillPoint {
+        position: absolute;
+        top: 43.1%;
+        left: 82.3%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #vaughanPoint {
+        position: absolute;
+        top: 49.1%;
+        left: 73.3%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #bramptonPoint {
+        position: absolute;
+        top: 72.1%;
+        left: 42.3%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #mississaugaPoint {
+        position: absolute;
+        top: 96.1%;
+        left: 55.3%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #nobletonPoint {
+        position: absolute;
+        top: 40.3%;
+        left: 55.9%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+
+    #pearsonPoint {
+        position: absolute;
+        top: 77.5%;
+        left: 58.5%;
+
+        .pointer {
+            background-color: transparent;
+        }
+    }
+}

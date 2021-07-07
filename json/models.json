@@ -1,0 +1,111 @@
+[
+    {
+        "community" : "lytton",
+        "models" : [
+            {
+                "id": 1,
+                "modelName": "Alexandra",
+                "elevA" : "2120",
+                "elevB" : "2122",
+                "elevC" : "2320",
+                "elevD" : null,
+                "thumbnail" : "/img/lytton/30-alexandra-a.jpg",
+                "elevations": [
+                    {
+                        "elev" : "a",
+                        "sqft" : "2120",
+                        "img" : "/img/lytton/30-alexandra-a.jpg"
+                    },
+                    {
+                        "elev" : "b",
+                        "sqft" : "2122",
+                        "img" : "/img/lytton/30-alexandra-b.jpg"
+                    },
+                    {
+                        "elev" : "c",
+                        "sqft" : "2230",
+                        "img" : "/img/lytton/30-alexandra-c.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "modelName": "Brockwell",
+                "elevA" : "2060",
+                "elevB" : "2022",
+                "elevC" : null,
+                "elevD" : null,
+                "thumbnail" : "/img/lytton/30-brockwell-a.jpg",
+                "elevations": [
+                    {
+                        "elev" : "a",
+                        "sqft" : "2120",
+                        "img" : "/img/lytton/30-brockwell-a.jpg"
+                    },
+                    {
+                        "elev" : "b",
+                        "sqft" : "2122",
+                        "img" : "/img/lytton/30-brockwell-b.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "community" : "valleybrooke",
+        "models" : [
+            {
+                "id": 1,
+                "modelName": "Birchbrooke",
+                "elevA" : "2120",
+                "elevB" : "2122",
+                "elevC" : "2320",
+                "elevD" : null,
+                "thumbnail" : "/img/valleybrooke/40-birchbrooke-a.jpg",
+                "elevations": [
+                    {
+                        "elev" : "a",
+                        "sqft" : "2120",
+                        "img" : "/img/valleybrooke/40-birchbrooke-a.jpg"
+                    },
+                    {
+                        "elev" : "b",
+                        "sqft" : "2122",
+                        "img" : "/img/valleybrooke/40-birchbrooke-b.jpg"
+                    },
+                    {
+                        "elev" : "c",
+                        "sqft" : "2230",
+                        "img" : "/img/valleybrooke/40-birchbrooke-c.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "modelName": "Cedarbrooke",
+                "elevA" : "2060",
+                "elevB" : "2022",
+                "elevC" : "2156",
+                "elevD" : null,
+                "thumbnail" : "/img/valleybrooke/40-cedarbrooke-a.jpg",
+                "elevations": [
+                    {
+                        "elev" : "a",
+                        "sqft" : "2060",
+                        "img" : "/img/valleybrooke/40-cedarbrooke-a.jpg"
+                    },
+                    {
+                        "elev" : "b",
+                        "sqft" : "2022",
+                        "img" : "/img/valleybrooke/40-cedarbrooke-b.jpg"
+                    },
+                    {
+                        "elev" : "c",
+                        "sqft" : "2156",
+                        "img" : "/img/valleybrooke/40-cedarbrooke-c.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]

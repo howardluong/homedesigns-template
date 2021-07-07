@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'fonts';
+@import 'home';
+@import 'register';
+@import 'map';
+
+.noPadding {
+    padding: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

@@ -1,0 +1,299 @@
+
+
+#register {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    // @media screen and (max-width: 640px) {
+    //     padding: 30px 0;
+    // }
+
+    .formContainer {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+        @media screen and (max-width: 823px) {
+            display: block;
+        }
+
+        #registerForm {
+            background-color: $cc-green;
+            padding: 30px 50px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            
+
+            @media screen and (max-width: 1682px) {
+                padding: 30px 30px;
+            }
+
+            @media screen and (max-width: 991px) {
+                max-width: 90%;
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            @media screen and (max-width: 768px) {
+                max-width: 90%;
+                margin: auto;
+            }
+    
+            .logo {
+                width: 100%;
+                max-width: 400px;
+                margin: 0 auto;
+                display: block;
+
+                @media screen and (max-width: 1823px) {
+                    max-width: 20vw;
+                }
+
+                @media screen and (max-width: 1700px) {
+                    max-width: 15vw;
+                }
+
+                @media screen and (max-width: 1600px) {
+                    max-width: 11vw;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    max-width: 320px;
+                }
+
+                @media screen and (max-width: 1280px) and (max-height: 800px) {
+                    max-width: 280px;
+                }
+
+                
+    
+                img {
+                    width: 100%;
+                }
+            }
+
+            .textContainer {
+                color: $cc-white;
+
+                p.heading {
+                    margin: 30px 0 0 0;
+                    font-family: 'GothamLight';
+                    font-size: 2rem;
+
+                    @media screen and (max-width: 1888px) {
+                        font-size: 1.75rem;
+                    }
+
+                    @media screen and (max-width: 1602px) {
+                        font-size: 1.5rem;
+                    }
+
+                    @media screen and (max-width: 1400px) {
+                        font-size: 1.25rem;
+                    }
+                }
+
+                p.subheading {
+                    font-family: 'GothamBookItalic';
+                    font-size: 1.5rem;
+                    color: #eba900;
+
+                    @media screen and (max-width: 1400px) {
+                        font-size: 1rem;
+                    }
+                }
+
+                p.subtext {
+                    font-family: 'GothamLight';
+                    font-size: 0.85rem;
+                    line-height: 110%;
+                    max-width: 720px;
+                }
+            }
+
+            .formContainer {
+                // max-width: 720px;
+                width: 100%;
+
+                @media screen and (max-width: 991px) {
+                    max-width: 100%;
+                }
+
+                .maxWidthOverride {
+                    // @media screen and (max-width: 1300px) {
+                    //     max-width: 100%;
+                    //     flex: 100%;
+                    // }
+                }
+
+                .inputContainer {
+                    width: 100%;
+                    margin: 20px 0 0 0;
+
+                    input {
+                        width: 100%;
+                        background-color: #fff;
+                        border: 0;
+                        padding: 12px;
+                        
+                        @media screen and (max-width: 1823px) {
+                            // display: block;
+                            padding: 8px 12px;
+                        }
+
+                        &::placeholder {
+                            font-family: 'GothamLight';
+                            color: #87898C;
+                            font-size: 0.85rem;
+                        }
+                    }
+
+                    select {
+                        width: 100%;
+                        border: 0;
+                        padding: 12px 12px 12px 10px;
+                        font-family: 'GothamLight';
+                        color: #87898C;
+                        font-size: 0.85rem;
+                        background: #fff url("/img/select-arrow.svg") no-repeat right .3rem center;
+                        background-size: 30px 36px;
+                        appearance: none;
+                        -moz-appearance: none; /* Firefox */
+                        -webkit-appearance: none; /* Safari and Chrome */
+
+                        option {
+                            font-family: 'GothamLight';
+                            color: #87898C;
+                        }
+                    }
+                }
+
+                .areYouARealtor {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    @media screen and (max-width: 1300px) {
+                        justify-content: space-between;
+                    }
+
+                    .areYouARealtorHeading {
+                        font-family: 'GothamLight';
+                        color: $cc-white;
+                        font-size: 0.85rem;
+
+                        @media screen and (max-width: 1290px) {
+                            margin-top: 5px;
+                            font-size: 0.75rem;
+                        }
+                    }
+
+                    .checkboxMarginFix {
+                        @media screen and (max-width: 1300px) {
+                            margin-left: auto;
+                            margin-right: 20px;
+                        }
+                    }
+
+                    .checkboxLabel {
+                        color: $cc-white;
+                        @media screen and (max-width: 1290px) {
+                            font-size: 0.75rem;
+                        }
+                    }
+
+                    input {
+                        background-color: #000;
+                    }
+                }
+
+                button.regSubmit {
+                    border: 0;
+                    margin: 20px 0 0 0;
+                    background-color: $cc-yellow;
+                    padding: 5px 25px;
+                    font-family: 'GothamLight';
+                    color: #fff;
+                    display: block;
+                    cursor: pointer;
+                    transition: 0.25s ease-in-out;
+                    border: 1px solid $cc-yellow;
+                    outline: none;
+
+                    @media screen and (max-width: 640px) {
+                        width: 100%;
+                    }
+
+                    &:hover {
+                        background-color: $cc-green;
+                        color: $cc-yellow;
+                    }
+
+                    &:disabled {
+                        background-color:#9b7005;
+                        cursor: default;
+
+                        &:hover {
+                            // background-color: $cc-green;
+                            color: #29381b;
+                        }
+                    }
+                }
+
+                .regLogoContainer {
+
+                    a.tributeLogo {
+                        display: block;
+                        width: 100%;
+                        max-width: 160px;
+                        margin-top: 10px;
+                        margin-left: auto;
+
+                        @media screen and (max-width: 640px) {
+                            max-width: 280px;
+                            margin: 20px auto 0;
+                        }
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                p.legalText {
+                    font-size: 8px;
+                    margin-top: 20px;
+                    font-family: 'GothamLight';
+                    color: $cc-white;
+                }
+            }
+        }
+    }
+}
+
+
+.realtorCheckbox input {
+    position: relative;
+    z-index: -9999;
+    height: 0;
+    width: 0;
+  }
+  
+  .realtorCheckbox span.checkmark {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: #fff;
+    transition: 0.25s ease-in-out;
+  }
+  
+  .realtorCheckbox input:checked + span.checkmark {
+    background: url("/img/checkmark.svg");
+    width: 14px;
+    height: 14px;
+    transition: 0.25s ease-in-out;
+  }

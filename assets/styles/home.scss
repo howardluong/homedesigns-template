@@ -1,0 +1,46 @@
+.home {
+
+    .headerSection {
+        background-color: $cc-white;
+
+        .logo {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 25px 0;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .headerImg {
+        width: 100%;
+    }
+
+    .addedBG {
+        margin-bottom: 6rem;
+        @media screen and (max-width: 1520px) {
+            background-color: $cc-green;
+        }
+        @media screen and (max-width: 450px) {
+            margin-bottom: 5rem;
+        }
+    }
+    .footer{
+        background-color: #f2f2f2;
+        position: fixed;
+        bottom: 0;
+        .footerContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .footer-logo{
+                max-width:175px;
+                margin: 20px 10px;
+            }
+        }
+    }
+
+}
